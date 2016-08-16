@@ -389,7 +389,6 @@ func (v *RegexBuilder) Visit(node ast.Node) (w ast.Visitor) {
 		// Restore ActualNode
 		v.ActualNode = v.Stack.Pop().(regex.ExprStmt)
 
-
 		if t.Post != nil {
 			Walk(v, t.Post)
 		}

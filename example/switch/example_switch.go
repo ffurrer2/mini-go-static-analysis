@@ -189,7 +189,7 @@ func ExampleFuncSwitch_Snd_Rcv() {
 	// SwitchStmt: Init, Tag, Body
 	go snd(ch)
 	go snd(ch)
-	switch x:= <-ch;  x && <-x {
+	switch x := <-ch; x && <-x {
 
 	case <-ch, <-ch:
 		fmt.Println("Expected case: true")
