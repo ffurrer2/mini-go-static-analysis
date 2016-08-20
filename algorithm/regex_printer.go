@@ -3,7 +3,7 @@ package algorithm
 import (
 	"bytes"
 	"fmt"
-	"github.com/ffurrer2/projektarbeit1/regex"
+	"github.com/ffurrer2/mini-go-static-analysis/regex"
 	"strings"
 	"go/token"
 	"path/filepath"

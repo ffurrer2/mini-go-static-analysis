@@ -1,8 +1,6 @@
 package example
 
 import "fmt"
-import _ "runtime"
-import _ "sync"
 
 func snd1(ch chan int) {
 

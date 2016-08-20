@@ -6,7 +6,7 @@ import (
 	"go/parser"
 	"go/token"
 	"path/filepath"
-	"github.com/ffurrer2/projektarbeit1/visitor"
+	"github.com/ffurrer2/mini-go-static-analysis/visitor"
 	"os"
 	"go/printer"
 	"flag"
@@ -14,7 +14,7 @@ import (
 
 func main() {
 
-	filename, err := filepath.Abs("src/github.com/ffurrer2/projektarbeit1/example/minigo/main.go")
+	filename, err := filepath.Abs("src/github.com/ffurrer2/mini-go-static-analysis/example/minigo/main.go")
 
 	path := flag.String("p", filename, "path to code file")
 	flag.Parse()
