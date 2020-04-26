@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 package minigo
 
 func sel(x, y chan bool) {

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 package examples
 
 func snd8A() chan int {
